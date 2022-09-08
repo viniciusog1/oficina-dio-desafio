@@ -1,2 +1,30 @@
-# oficina-dio-desafio
-Modelagem conceitual de uma oficina.
+# Projeto Conceitual - Oficina
+
+Desafio da plataforma [DIO](https://dio.me) (Digital Innovation One), no bootcamp [Database Experience](https://web.dio.me/track/database-experience).
+
+## Sobre o desafio
+O desafio consiste em realizar a modelagem de dados de um projeto de Oficina, onde existirão diversos requisitos afim de entender de maneira prática como funciona a modelagem de dados em um ambiente real.
+As principais entidades do desafio são: 
+- Ordem de Serviço;
+- Cliente;
+- Mecânico;
+- Carro;
+- Peças;
+- Tipo de Serviço.
+
+### Narrativa
+- Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica
+- Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões  periódicas
+- Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega.
+- A partir da OS, calcula-se o valor de cada serviço, consultando-se uma tabela de referência de mão-de-obra
+- O valor de cada peça também irá compor a OSO cliente autoriza a execução dos serviços
+- A mesma equipe avalia e executa os serviços
+- Os mecânicos possuem código, nome, endereço e especialidade
+- Cada OS possui: n°, data de emissão, um valor, status e uma data para conclusão dos trabalhos.
+
+### Ferramentas utilizadas
+- MySQL Workbench
+
+## Modelo - Imagem
+
+![Diagrama Oficina](oficina.png)
